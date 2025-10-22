@@ -16,17 +16,9 @@ npm -v
 ## Instalace závislostí
 V kořenovém adresáři projektu spusťte jeden z následujících příkazů.
 
-# Doporučené (reprodukovatelné, vezme `package-lock.json`)
-```powershell
-npm ci
-```
-
-# Alternativa (instaluje podle `package.json`)
 ```powershell
 npm install
 ```
-
-Poznámka: `npm ci` je rychlejší a deterministická instalace pokud v repozitáři existuje `package-lock.json`.
 
 ## Spuštění aplikace
 
